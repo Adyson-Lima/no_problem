@@ -1,27 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="#F1F8E9"
     tools:context=".PerguntaUmActivity">
 
-    <TextView
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Qual o problema que você deseja resolver?" />
+        android:layout_gravity="top"
+        android:layout_margin="10dp"
+        android:backgroundTint="#EEEEEE">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qual o problema que você deseja resolver?"
+            android:textColor="@color/green"
+            android:textSize="25dp" />
+    </androidx.cardview.widget.CardView>
 
     <EditText
         android:id="@+id/txtPerguntaUm"
         android:layout_width="match_parent"
-        android:layout_height="45dp" />
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="100dp" />
 
     <Button
         android:id="@+id/btnTelaPerguntaUm"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Avançar"/>
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/green"
+        android:text="Avançar" />
 
 
-</LinearLayout>
+</FrameLayout>

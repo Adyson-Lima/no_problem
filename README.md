@@ -5,7 +5,7 @@
 # No_Problem é um app que ajuda a melhorar o estado mental para resolução de problemas.
 
 ## Imagens do No_Problem. 
-<img src="/home/adyson/Programacao/Android/Projetos/NoProblem/documentacao/meugif.gif" width="100%" height="100%"/>
+<img src="https://github.com/Adyson-Lima/no_problem/blob/main/documentacao/meugif.gif" width="30%" height="30%"/>
 
 # Sobre o No_Problem.
 ## No_Problem é desenvolvido com Kotlin e possui funcionalidades de:

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NoProblem</string>
+    <string name="textoInicial">Pensando que pode ou não pode, em ambos os casos, você está certo(a).Henry Ford</string>
+    <string name="btnAvancar">Avançar</string>
+    <string name="primeiraPergunta">Qual o problema que você deseja resolver?</string>
+    <string name="dicaPerguntaUm">Insira o problema que você quer resolver aqui.</string>
 </resources>

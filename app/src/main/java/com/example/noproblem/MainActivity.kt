@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         val btnTelaInicial = findViewById<Button>(R.id.btnTelaInicial)
 
         btnTelaInicial.setOnClickListener {
-            val intent = Intent(this,PerguntaUmActivity::class.java)
+            val intent = Intent(this, PerguntaUmActivity::class.java)
             startActivity(intent)
         }
     }

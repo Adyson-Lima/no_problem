@@ -16,11 +16,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" ' Pensando que pode ou não pode, em ambos os casos, você está certo(a). ' (Henry Ford) "
+            android:background="@color/contraste"
+            android:text="@string/textoInicial"
+            android:textAlignment="center"
             android:textColor="@color/green"
-            android:textSize="50dp" />
+            android:textSize="25sp" />
     </androidx.cardview.widget.CardView>
-
 
     <Button
         android:id="@+id/btnTelaInicial"
@@ -29,6 +30,6 @@
         android:layout_gravity="bottom"
         android:layout_margin="10dp"
         android:backgroundTint="@color/green"
-        android:text="Avançar" />
+        android:text="@string/btnAvancar" />
 
 </FrameLayout>

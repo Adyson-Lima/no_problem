@@ -1,5 +1,6 @@
 package com.example.noproblem
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -14,8 +15,15 @@ class PerguntaUmActivity : AppCompatActivity() {
         val btnTelaPerguntaUm = findViewById<Button>(R.id.btnTelaPerguntaUm)
 
         btnTelaPerguntaUm.setOnClickListener {
-            val texto = txtPerguntaUm.text.toString()
-            Toast.makeText(this,texto,Toast.LENGTH_SHORT).show()
+            val intent = Intent(this,PerguntasFinaisActivity::class.java)
+            val problema = txtPerguntaUm.text.toString()
+            if(problema != "" && problema.length > 5){
+                intent.putExtra("problema", problema )
+                startActivity(intent)
+            }else{
+                Toast.makeText(this,"Digite um problema.",Toast.LENGTH_SHORT).show()
+            }
+
         }
 
     }

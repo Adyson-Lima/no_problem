@@ -33,7 +33,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Existe algo nesse problema maior que sua capacidade humana?"
+            android:text="Existe algo nesse problema maior que suas capacidades de pensar e agir?"
             android:textColor="@color/green"
             android:textAlignment="center"
             android:textSize="16dp" />

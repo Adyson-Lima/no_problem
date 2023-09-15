@@ -20,55 +20,55 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textAlignment="center"
-            android:textSize="16dp" />
+            android:textSize="16sp" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="top"
-        android:layout_margin="10dp"
+        android:layout_margin="10sp"
         android:backgroundTint="#EEEEEE">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Existe algo nesse problema maior que suas capacidades de pensar e agir?"
+            android:text="@string/pergunta_final1"
             android:textColor="@color/green"
             android:textAlignment="center"
-            android:textSize="16dp" />
+            android:textSize="16sp" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="top"
-        android:layout_margin="10dp"
+        android:layout_margin="10sp"
         android:backgroundTint="#EEEEEE">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" O que você pode fazer agora mesmo para resolver esse problema? "
+            android:text="@string/pergunta_final2"
             android:textColor="@color/green"
             android:textAlignment="center"
-            android:textSize="16dp" />
+            android:textSize="16sp" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="top"
-        android:layout_margin="10dp"
+        android:layout_margin="10sp"
         android:backgroundTint="#EEEEEE">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" Em quanto tempo você se compromete a resolver esse problema? "
+            android:text="@string/pergunta_final3"
             android:textColor="@color/green"
             android:textAlignment="center"
-            android:textSize="16dp" />
+            android:textSize="16sp" />
     </androidx.cardview.widget.CardView>
 
     <FrameLayout
@@ -80,9 +80,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_margin="10dp"
+            android:layout_margin="10sp"
             android:backgroundTint="@color/green"
-            android:text="AGIR AGORA" />
+            android:text="@string/btnAgir" />
     </FrameLayout>
 
 </LinearLayout>

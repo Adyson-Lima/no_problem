@@ -4,4 +4,8 @@
     <string name="btnAvancar">Avançar</string>
     <string name="primeiraPergunta">Qual o problema que você deseja resolver?</string>
     <string name="dicaPerguntaUm">Insira um problema.</string>
+    <string name="pergunta_final1">Existe algo nesse problema maior que suas capacidades de pensar e agir?</string>
+    <string name="pergunta_final2">O que você pode fazer agora mesmo para resolver esse problema?</string>
+    <string name="pergunta_final3">Em quanto tempo você se compromete a resolver esse problema?</string>
+    <string name="btnAgir">AGIR AGORA</string>
 </resources>

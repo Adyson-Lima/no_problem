@@ -18,7 +18,7 @@ class PerguntasFinaisActivity : AppCompatActivity() {
         txtProblemaDefinido.setText("SOBRE O PROBLEMA:\n ${problema}")
 
         btnTelaPerguntasFinais.setOnClickListener {
-            val intent = Intent(this,MainActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }

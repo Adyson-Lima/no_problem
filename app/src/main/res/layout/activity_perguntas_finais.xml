@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#F1F8E9"
+    android:orientation="vertical"
     tools:context=".PerguntasFinaisActivity">
 
     <androidx.cardview.widget.CardView
@@ -18,8 +18,8 @@
             android:id="@+id/txtProblemaDefinido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
             android:textAlignment="center"
+            android:textColor="@color/white"
             android:textSize="16sp" />
     </androidx.cardview.widget.CardView>
 
@@ -34,8 +34,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/pergunta_final1"
-            android:textColor="@color/green"
             android:textAlignment="center"
+            android:textColor="@color/green"
             android:textSize="16sp" />
     </androidx.cardview.widget.CardView>
 
@@ -50,8 +50,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/pergunta_final2"
-            android:textColor="@color/green"
             android:textAlignment="center"
+            android:textColor="@color/green"
             android:textSize="16sp" />
     </androidx.cardview.widget.CardView>
 
@@ -66,8 +66,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/pergunta_final3"
-            android:textColor="@color/green"
             android:textAlignment="center"
+            android:textColor="@color/green"
             android:textSize="16sp" />
     </androidx.cardview.widget.CardView>
 

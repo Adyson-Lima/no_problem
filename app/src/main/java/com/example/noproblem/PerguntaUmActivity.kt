@@ -15,13 +15,13 @@ class PerguntaUmActivity : AppCompatActivity() {
         val btnTelaPerguntaUm = findViewById<Button>(R.id.btnTelaPerguntaUm)
 
         btnTelaPerguntaUm.setOnClickListener {
-            val intent = Intent(this,PerguntasFinaisActivity::class.java)
+            val intent = Intent(this, PerguntasFinaisActivity::class.java)
             val problema = txtPerguntaUm.text.toString()
-            if(problema != "" && problema.length > 5){
-                intent.putExtra("problema", problema )
+            if (problema != "" && problema.length > 5) {
+                intent.putExtra("problema", problema)
                 startActivity(intent)
-            }else{
-                Toast.makeText(this,"Digite um problema.",Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "Digite um problema.", Toast.LENGTH_SHORT).show()
             }
 
         }

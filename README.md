@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" width="100" height="100"/>
+  <img src="https://github.com/Adyson-Lima/no_problem/blob/main/documentacao/Logo.jpg" width="300" height="200"/>
 </p>
 
 # No_Problem é um app que ajuda a melhorar o estado mental para resolução de problemas.

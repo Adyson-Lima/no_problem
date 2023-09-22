@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.noproblem'
+    namespace 'com.asltecnologia.noproblem'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.noproblem"
+        applicationId "com.asltecnologia.noproblem"
         minSdk 24
         targetSdk 33
         versionCode 1

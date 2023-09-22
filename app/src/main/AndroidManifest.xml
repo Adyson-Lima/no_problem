@@ -13,13 +13,13 @@
         android:theme="@style/Theme.NoProblem"
         tools:targetApi="31">
         <activity
-            android:name=".PerguntasFinaisActivity"
+            android:name="com.asltecnologia.noproblem.PerguntasFinaisActivity"
             android:exported="false" />
         <activity
-            android:name=".PerguntaUmActivity"
+            android:name="com.asltecnologia.noproblem.PerguntaUmActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.asltecnologia.noproblem.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

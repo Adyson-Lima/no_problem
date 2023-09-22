@@ -1,4 +1,4 @@
-package com.example.noproblem
+package com.asltecnologia.noproblem
 
 import org.junit.Test
 

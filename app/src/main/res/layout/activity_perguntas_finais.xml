@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#F1F8E9"
     android:orientation="vertical"
-    tools:context=".PerguntasFinaisActivity">
+    tools:context="com.asltecnologia.noproblem.PerguntasFinaisActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"

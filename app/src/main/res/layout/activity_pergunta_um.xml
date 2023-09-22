@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F1F8E9"
-    tools:context=".PerguntaUmActivity">
+    tools:context="com.asltecnologia.noproblem.PerguntaUmActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
